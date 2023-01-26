@@ -1,0 +1,203 @@
+<!-- 
+Project Name: Art Museums in New York City 
+Author: Jocelyn M. Rodriguez
+Date: 01/04/23
+Purpose: To create a webpage illustrating information about four popular art museums in NYC.
+Input: N/A
+Output: N/A
+Copyright © 2023 Jocelyn M. Rodriguez. All rights reserved.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content=""Width=device-width, initial-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title> Art Museums in New York City </title> 
+    </head>   
+<body>
+
+<center> <h1> Art Museums in New York City </h1></center>   
+<center><h3> A guide to some of the BEST Art Museums New York City has to offer! </h3></center>
+
+
+
+<!-- Use figcaption and place the four images in a figure container -->
+   
+<center><figure>
+    <!--Four images of Art Museums in New York City: the Guggenheim, MET, MOMA and the Whitney Museum. 
+        Set with --> 
+        
+    <a href="https://www.guggenheim.org/"><img src="guggenheim.jpg" 
+       alt="An exterior shot of the Solomon R. Guggenheim Museum during dusk fall." 
+       width="250" height="250" title="The Guggenheim Museum"></a>
+ 
+    <a href="https://www.metmuseum.org/"><img src="met.jpg" 
+       alt="An exterior shot of the Metropolitan Museum of the Arts during the day." 
+       width="250" height="250" title="The Metropolitan Museum of the Arts "></a>
+       
+    <a href="https://www.moma.org/"><img src="moma.jpg" 
+       alt="An exterior shot of the Museum of Modern Art during the day." 
+       width="250" height="250" title="The Modern Museum of the Arts"></a>
+      
+    <a href="https://whitney.org/"><img src="whitney.jpg" 
+       alt="An aerial shot of the Whitney Museum of American Art." 
+       width="250" height="250" title=" The Whitney Museum of the Arts "></a>
+      
+       <figcaption> Click on the images to visit each art museum. </figcaption>
+
+    </figure></center>
+
+    <!-- Same page links for ticket price, hours of operation and directions-->
+
+
+
+<!-- Method #1: Without the nav tag to create a link within the same page -->
+  
+<nav>
+<a id="admission_prices"></a>
+<a id="hours_of_operation"></a>
+<a id="directions_"></a>
+<a href="#admission_prices">Admission Prices</a>
+<a href="#hours_of_operations">Hours of Operations</a>
+<a href="#directions_">Directions</a> 
+</nav>
+
+<center>
+
+<!-- <nav>
+  <a href="/addmission prices/">Admission Prices</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/python/">Python</a>
+  </nav>
+-->
+</center>
+
+
+
+<!-- Horizontal Line -->
+
+<hr>
+
+<!-- Paragraphs on Learning about Art & Art Appreciation -->
+
+<h3> Learn and Explore </h3>
+<p>
+    Whether you are looking to inspire a budding artist, traverse New York City art scene, 
+    or passionate about art in general, New York City has everything you are looking for. 
+    No matter what your age, interest or educational level may be, there is something for 
+    everyone! Explore the top four art institutions in New York City and discover a new 
+    world unlimited!
+
+</p>
+
+<h3> Famous Artwork in New York City </h3>
+<p>
+    New York City is full of great and varied artists, who make their mark by changing the city and 
+    the world around them. Whether its painting, theater, graffiti, sculpture, or any other art under 
+    the sun, New York is the place to discover new and/or popular artwork. 
+
+</p>
+
+<!-- Table: Admission Prices of the museums -->
+
+<center><table>
+    <h4> Admission Prices of the Art Museums in NYC </h4> 
+    <tr>
+      <th style="background-color: rgba(121, 121, 113, 0.25)">Art Museum</th> 
+      <th style="background-color: rgba(121, 121, 113, 0.25)">Adults</th> 
+      <th style="background-color: rgba(121, 121, 113, 0.25)">Children</th> 
+      <th style="background-color: rgba(121, 121, 113, 0.25)">Students</th> 
+      <th style="background-color: rgba(121, 121, 113, 0.25)">Seniors</th> 
+    </tr> 
+    <tr>
+      <td>Solomon R. Guggenheim Museum</td>
+      <td>$25</td>
+      <td>FREE</td>
+      <td>$18</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>Metropolitan Museum of the Arts</td>
+      <td>$30</td>
+      <td>FREE</td>
+      <td>$17</td>
+      <td>$22</td>
+    </tr>
+    <tr>
+    <td>Museum of Modern Art</td>
+    <td>$25</td>
+    <td>FREE</td>
+    <td>$14</td>
+    <td>$18</td>
+      </tr>
+      <tr>
+        <td>Whitney Museum of American Art</td>
+        <td>$25</td>
+        <td>FREE</td>
+        <td>$18</td>
+        <td>$18</td>
+      </tr>
+  </table></center>
+
+<!-- Horizontal Line -->
+<hr>
+
+<!-- Hours of Operation created with an unordered list and sub-bullet points-->
+<h3>Hours of Operation</h3>
+<ul>
+
+<li>Solomon R. Guggenheim Museum
+  <ul>
+    <li> Sunday: 11am - 8pm </li>
+    <li> Monday- Saturday: 11am - 6pm </li>
+  </ul>
+
+</li>
+<li>Metropolitan Museum of the Arts
+  <ul>
+    <li> Saturday & Friday: 10am - 9pm </li>
+    <li> Wednesday: Closed </li>
+    <li> Monday, Tuesday and Thursday: 10am - 5pm </li>
+  </ul>
+ 
+</li>
+<li>Modern Museum of the Arts
+  <ul>
+    <li> Sunday: 10:30am - 5:30pm </li>
+    <li> Saturday: 10:30am - 7pm </li>
+  </ul>
+</li>
+
+<li>Whitney Museum of American Art
+  <ul>
+    <li> Saturday, Sunday, Monday, Wednesday & Thursday: 10:30am - 6pm </li>
+    <li> Tuesday: Closed </li>
+    <li> Friday: 10:30am - 10pm </li>
+  </ul>
+</li>
+</ul>
+
+<!-- Horizontial Line -->
+<hr>
+
+<!--  Directions with links to google map  -->
+<h3> Directions </h3>
+
+<h4>Solomon R. Guggenheim Museum </h4>
+<a href="https://www.guggenheim.org/plan-your-visit"> 1071 5th Ave, New York, NY 10128 </a>
+
+<h4>Metropolitan Museum of the Arts</h4>
+<a href="https://www.metmuseum.org/visit/plan-your-visit/met-fifth-avenue"> 1000 5th Ave, New York, NY 10028 </a>
+
+<h4>Modern Museum of the Arts</h4>
+<a href="https://www.moma.org/visit/">11 West 53rd St, New York, NY 10019</a>
+
+<h4>Whitney Museum of American Art</h4>
+<a href="https://whitney.org/visit"> 99 Gansevoort St, New York, NY 10014 </a>
+
+<body>
+</html>
